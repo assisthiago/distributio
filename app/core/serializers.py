@@ -5,7 +5,7 @@ from app.core.models import User
 
 class UserSerializer(ModelSerializer):
     """
-    Serializer for the User model.
+    Serializer for listing, creating and retrieving the User model.
     """
 
     class Meta:
@@ -13,6 +13,7 @@ class UserSerializer(ModelSerializer):
         fields = [
             "id",
             "username",
+            "password",
             "email",
             "first_name",
             "last_name",
@@ -23,3 +24,17 @@ class UserSerializer(ModelSerializer):
             "updated_at",
         ]
         read_only_fields = ["id", "created_at", "updated_at"]
+        extra_kwargs = {
+            "password": {"write_only": True},
+        }
+
+
+class UserUpdateSerializer(UserSerializer):
+    """
+    Serializer for updating the User model.
+    """
+
+    class Meta(UserSerializer.Meta):
+        extra_kwargs = {
+            "password": {"write_only": True, "required": False},
+        }
