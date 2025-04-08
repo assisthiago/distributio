@@ -26,6 +26,7 @@ INSTALLED_APPS = [
     "django.contrib.messages",
     "django.contrib.staticfiles",
     "debug_toolbar",
+    "rest_framework",
     "app.core",
 ]
 
@@ -118,9 +119,14 @@ DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 # Debug Toolbar
 INTERNAL_IPS = ["127.0.0.1"]
 
-# Django Admin Interface
-X_FRAME_OPTIONS = "SAMEORIGIN"
-SILENCED_SYSTEM_CHECKS = ["security.W019"]
+# REST Framework
+REST_FRAMEWORK = {
+    # Use Django's standard `django.contrib.auth` permissions,
+    # or allow read-only access for unauthenticated users.
+    "DEFAULT_PERMISSION_CLASSES": [
+        "rest_framework.permissions.DjangoModelPermissionsOrAnonReadOnly"
+    ]
+}
 
 # CACHES
 # CACHES = {
