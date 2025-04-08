@@ -5,7 +5,7 @@ from django.contrib import admin
 from django.urls import include, path
 from rest_framework import routers
 
-from app.core.views import UserViewSet
+from app.core.views import ItemViewSet, UserViewSet
 
 # Overriding AdminSite attributes.
 admin.site.site_header = admin.site.site_title = "DISTRIBUTIO"
@@ -13,6 +13,7 @@ admin.site.site_header = admin.site.site_title = "DISTRIBUTIO"
 # API URLs.
 router = routers.SimpleRouter()
 router.register("users", UserViewSet, basename="user")
+router.register("items", ItemViewSet, basename="item")
 
 urlpatterns = [
     path("api/", include(router.urls)),  # API URLs

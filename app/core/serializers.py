@@ -1,6 +1,6 @@
 from rest_framework.serializers import ModelSerializer
 
-from app.core.models import User
+from app.core.models import Item, User
 
 
 class UserSerializer(ModelSerializer):
@@ -37,4 +37,18 @@ class UserUpdateSerializer(UserSerializer):
     class Meta(UserSerializer.Meta):
         extra_kwargs = {
             "password": {"write_only": True, "required": False},
+        }
+
+
+class ItemSerializer(ModelSerializer):
+    """
+    Serializer for listing, creating and retrieving the Item model.
+    """
+
+    class Meta:
+        model = Item
+        fields = "__all__"
+        read_only_fields = ["id", "created_at", "updated_at"]
+        extra_kwargs = {
+            "image": {"required": False},
         }

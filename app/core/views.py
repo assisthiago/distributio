@@ -1,7 +1,7 @@
 from rest_framework.viewsets import ModelViewSet
 
-from app.core.models import User
-from app.core.serializers import UserSerializer, UserUpdateSerializer
+from app.core.models import Item, User
+from app.core.serializers import ItemSerializer, UserSerializer, UserUpdateSerializer
 
 
 class UserViewSet(ModelViewSet):
@@ -16,3 +16,12 @@ class UserViewSet(ModelViewSet):
         if self.action == "update":
             return UserUpdateSerializer
         return super().get_serializer_class()
+
+
+class ItemViewSet(ModelViewSet):
+    """
+    A viewset for viewing and editing item instances.
+    """
+
+    queryset = Item.objects.all()
+    serializer_class = ItemSerializer

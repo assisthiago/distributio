@@ -57,3 +57,30 @@ class User(AbstractUser):
         db_table = "core_user"
         verbose_name = "usuário"
         verbose_name_plural = "usuários"
+
+
+class Item(models.Model):
+
+    UNIT_CHOICES = (
+        ("un", "Unidade"),
+        ("g", "Grama"),
+        ("kg", "Quilograma"),
+        ("ml", "Mililitro"),
+        ("l", "Litro"),
+    )
+
+    # Fields
+    name = models.CharField("nome", max_length=255)
+    description = models.TextField("descrição", blank=True, null=True)
+    price = models.DecimalField("preço", max_digits=10, decimal_places=2, default=0)
+    size = models.IntegerField("tamanho", default=0)
+    unit = models.CharField("unidade de medida", max_length=2, choices=UNIT_CHOICES)
+    image = models.ImageField("imagem", upload_to="media/items/")
+    created_at = models.DateTimeField("criado em", auto_now_add=True)
+    updated_at = models.DateTimeField("atualizado em", auto_now=True)
+
+    # Relationships
+
+    # Functions
+    def __str__(self):
+        return self.name
