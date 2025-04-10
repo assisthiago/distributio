@@ -5,15 +5,28 @@ from django.contrib import admin
 from django.urls import include, path
 from rest_framework import routers
 
-from app.core.views import ItemViewSet, UserViewSet
+from app.core.views import (
+    AdditionalCategoryViewSet,
+    ItemViewSet,
+    ProductCategoryViewSet,
+    ProductViewSet,
+    UserViewSet,
+)
 
 # Overriding AdminSite attributes.
 admin.site.site_header = admin.site.site_title = "DISTRIBUTIO"
 
 # API URLs.
 router = routers.SimpleRouter()
-router.register("users", UserViewSet, basename="user")
+router.register(
+    "categories/additionals", AdditionalCategoryViewSet, basename="additional_category"
+)
+router.register(
+    "categories/products", ProductCategoryViewSet, basename="product_category"
+)
 router.register("items", ItemViewSet, basename="item")
+router.register("products", ProductViewSet, basename="product")
+router.register("users", UserViewSet, basename="user")
 
 urlpatterns = [
     path("api/", include(router.urls)),  # API URLs

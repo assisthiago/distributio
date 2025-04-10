@@ -53,6 +53,9 @@ class ProductAdmin(admin.ModelAdmin):
 @admin.register(ProductCategory)
 class ProductCategoryAdmin(admin.ModelAdmin):
 
+    # Add/Change
+    filter_horizontal = ("products",)
+
     # Change list view
     list_display = ("title", "updated_at", "created_at")
     ordering = ("-title",)

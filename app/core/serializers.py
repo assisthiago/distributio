@@ -1,6 +1,6 @@
-from rest_framework.serializers import ModelSerializer
+from rest_framework.serializers import ModelSerializer, StringRelatedField
 
-from app.core.models import Item, User
+from app.core.models import AdditionalCategory, Item, Product, ProductCategory, User
 
 
 class UserSerializer(ModelSerializer):
@@ -47,6 +47,66 @@ class ItemSerializer(ModelSerializer):
 
     class Meta:
         model = Item
+        fields = "__all__"
+        read_only_fields = ["id", "created_at", "updated_at"]
+        extra_kwargs = {
+            "image": {"required": False},
+        }
+
+
+class ProductSerializer(ModelSerializer):
+    """
+    Serializer for listing, creating and retrieving the Product model.
+    """
+
+    class Meta:
+        model = Product
+        fields = "__all__"
+        read_only_fields = ["id", "created_at", "updated_at"]
+        extra_kwargs = {
+            "image": {"required": False},
+        }
+
+
+class AdditionalCategorySerializer(ModelSerializer):
+    """
+    Serializer for listing, creating and retrieving the AdditionalCategory model.
+    """
+
+    additionals = ItemSerializer(
+        many=True,
+        required=False,
+        read_only=True,
+    )
+    product = StringRelatedField(
+        required=False,
+        read_only=True,
+    )
+
+    class Meta:
+        model = AdditionalCategory
+        fields = "__all__"
+        read_only_fields = ["id", "created_at", "updated_at"]
+        extra_kwargs = {
+            "image": {"write_only": True},
+            "product": {"write_only": True},
+            "additionals": {"write_only": True},
+        }
+
+
+class ProductCategorySerializer(ModelSerializer):
+    """
+    Serializer for listing, creating and retrieving the ProductCategory model.
+    """
+
+    products = ProductSerializer(
+        many=True,
+        required=False,
+        read_only=True,
+    )
+
+    class Meta:
+        model = ProductCategory
         fields = "__all__"
         read_only_fields = ["id", "created_at", "updated_at"]
         extra_kwargs = {
