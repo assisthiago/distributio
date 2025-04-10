@@ -75,7 +75,9 @@ class Item(models.Model):
     price = models.DecimalField("preço", max_digits=10, decimal_places=2, default=0)
     size = models.IntegerField("tamanho", default=0)
     unit = models.CharField("unidade de medida", max_length=2, choices=UNIT_CHOICES)
-    image = models.ImageField("imagem", upload_to="media/items/")
+    image = models.ImageField(
+        "imagem", upload_to="media/items/", blank=True, null=True, default=None
+    )
     created_at = models.DateTimeField("criado em", auto_now_add=True)
     updated_at = models.DateTimeField("atualizado em", auto_now=True)
 
@@ -107,7 +109,9 @@ class Product(models.Model):
     price = models.DecimalField("preço", max_digits=10, decimal_places=2, default=0)
     size = models.IntegerField("tamanho", default=0)
     unit = models.CharField("unidade de medida", max_length=2, choices=UNIT_CHOICES)
-    image = models.ImageField("imagem", upload_to="media/products/")
+    image = models.ImageField(
+        "imagem", upload_to="media/products/", blank=True, null=True, default=None
+    )
     created_at = models.DateTimeField("criado em", auto_now_add=True)
     updated_at = models.DateTimeField("atualizado em", auto_now=True)
 
