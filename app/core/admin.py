@@ -1,6 +1,6 @@
 from django.contrib import admin
 
-from app.core.models import AdditionalCategory, Item, Product, User
+from app.core.models import AdditionalCategory, Item, Product, ProductCategory, User
 
 
 @admin.register(User)
@@ -33,6 +33,8 @@ class AdditionalCategoryInline(admin.StackedInline):
 
     model = AdditionalCategory
     extra = 1
+
+    # Form
     filter_horizontal = ("additionals",)
     radio_fields = {"type": admin.HORIZONTAL}
 
@@ -44,5 +46,13 @@ class ProductAdmin(admin.ModelAdmin):
     inlines = [AdditionalCategoryInline]
 
     # Change list view
-    list_display = ("name", "description", "price", "created_at")
+    list_display = ("name", "price", "created_at", "updated_at")
     ordering = ("-name",)
+
+
+@admin.register(ProductCategory)
+class ProductCategoryAdmin(admin.ModelAdmin):
+
+    # Change list view
+    list_display = ("title", "updated_at", "created_at")
+    ordering = ("-title",)
