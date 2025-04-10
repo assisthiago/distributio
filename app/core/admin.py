@@ -1,6 +1,6 @@
 from django.contrib import admin
 
-from app.core.models import Item, User
+from app.core.models import AdditionalCategory, Item, Product, User
 
 
 @admin.register(User)
@@ -13,5 +13,36 @@ class UserAdmin(admin.ModelAdmin):
 @admin.register(Item)
 class ItemAdmin(admin.ModelAdmin):
 
+    list_display = ("name", "description", "price", "created_at")
+    ordering = ("-name",)
+
+
+@admin.register(AdditionalCategory)
+class AdditionalCategoryAdmin(admin.ModelAdmin):
+
+    # Add/Change
+    filter_horizontal = ("additionals",)
+    radio_fields = {"type": admin.HORIZONTAL}
+
+    # Change list view
+    list_display = ("title", "updated_at", "created_at")
+    ordering = ("-title",)
+
+
+class AdditionalCategoryInline(admin.StackedInline):
+
+    model = AdditionalCategory
+    extra = 1
+    filter_horizontal = ("additionals",)
+    radio_fields = {"type": admin.HORIZONTAL}
+
+
+@admin.register(Product)
+class ProductAdmin(admin.ModelAdmin):
+
+    # Add/Change
+    inlines = [AdditionalCategoryInline]
+
+    # Change list view
     list_display = ("name", "description", "price", "created_at")
     ordering = ("-name",)
