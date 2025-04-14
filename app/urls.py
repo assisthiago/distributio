@@ -12,6 +12,7 @@ from rest_framework_simplejwt.views import (
 
 from app.category.views import AdditionalCategoryViewSet, ProductCategoryViewSet
 from app.client.views import AddressViewSet, ClientViewSet, UserViewSet
+from app.order.views import OrderViewSet
 from app.product.views import AdditionalViewSet, ProductViewSet
 from app.swagger import schema_view
 
@@ -35,6 +36,7 @@ router.register("clients", ClientViewSet, basename="client")
 router.register("users", UserViewSet, basename="user")
 
 # Order
+router.register("orders", OrderViewSet, basename="order")
 
 # Product
 router.register("additionals", AdditionalViewSet, basename="additional")

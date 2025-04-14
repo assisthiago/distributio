@@ -1,3 +1,4 @@
+from django_filters.rest_framework import DjangoFilterBackend
 from rest_framework import viewsets
 from rest_framework.authentication import BasicAuthentication, SessionAuthentication
 from rest_framework.permissions import IsAuthenticated
@@ -31,3 +32,6 @@ class AdditionalCategoryViewSet(viewsets.ModelViewSet):
 
     queryset = AdditionalCategory.objects.all()
     serializer_class = AdditionalCategorySerializer
+
+    filter_backends = [DjangoFilterBackend]
+    filterset_fields = ["product"]
