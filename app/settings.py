@@ -29,6 +29,7 @@ INSTALLED_APPS = [
     "drf_yasg",
     "debug_toolbar",
     "rest_framework",
+    "rest_framework_simplejwt",
     "django_filters",
     "app.category",
     "app.client",
