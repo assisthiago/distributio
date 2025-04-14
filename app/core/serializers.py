@@ -1,12 +1,37 @@
-from rest_framework.serializers import ModelSerializer, StringRelatedField
+from rest_framework import serializers
 
-from app.core.models import AdditionalCategory, Item, Product, ProductCategory, User
+from app.core.models import (
+    AdditionalCategory,
+    Address,
+    Item,
+    Order,
+    Product,
+    ProductCategory,
+    User,
+)
 
 
-class UserSerializer(ModelSerializer):
+class AddressSerializer(serializers.ModelSerializer):
+    """
+    Serializer for listing, creating and retrieving the Address model.
+    """
+
+    class Meta:
+        model = Address
+        fields = "__all__"
+        read_only_fields = ["id", "created_at", "updated_at"]
+
+
+class UserSerializer(serializers.ModelSerializer):
     """
     Serializer for listing, creating and retrieving the User model.
     """
+
+    addresses = AddressSerializer(
+        many=True,
+        required=False,
+        read_only=True,
+    )
 
     class Meta:
         model = User
@@ -20,6 +45,7 @@ class UserSerializer(ModelSerializer):
             "cpf",
             "phone",
             "birth_date",
+            "addresses",
             "created_at",
             "updated_at",
         ]
@@ -40,7 +66,7 @@ class UserUpdateSerializer(UserSerializer):
         }
 
 
-class ItemSerializer(ModelSerializer):
+class ItemSerializer(serializers.ModelSerializer):
     """
     Serializer for listing, creating and retrieving the Item model.
     """
@@ -54,7 +80,7 @@ class ItemSerializer(ModelSerializer):
         }
 
 
-class ProductSerializer(ModelSerializer):
+class ProductSerializer(serializers.ModelSerializer):
     """
     Serializer for listing, creating and retrieving the Product model.
     """
@@ -68,7 +94,7 @@ class ProductSerializer(ModelSerializer):
         }
 
 
-class AdditionalCategorySerializer(ModelSerializer):
+class AdditionalCategorySerializer(serializers.ModelSerializer):
     """
     Serializer for listing, creating and retrieving the AdditionalCategory model.
     """
@@ -78,7 +104,7 @@ class AdditionalCategorySerializer(ModelSerializer):
         required=False,
         read_only=True,
     )
-    product = StringRelatedField(
+    product = serializers.StringRelatedField(
         required=False,
         read_only=True,
     )
@@ -94,7 +120,7 @@ class AdditionalCategorySerializer(ModelSerializer):
         }
 
 
-class ProductCategorySerializer(ModelSerializer):
+class ProductCategorySerializer(serializers.ModelSerializer):
     """
     Serializer for listing, creating and retrieving the ProductCategory model.
     """
@@ -107,6 +133,20 @@ class ProductCategorySerializer(ModelSerializer):
 
     class Meta:
         model = ProductCategory
+        fields = "__all__"
+        read_only_fields = ["id", "created_at", "updated_at"]
+        extra_kwargs = {
+            "image": {"required": False},
+        }
+
+
+class OrderSerializer(serializers.ModelSerializer):
+    """
+    Serializer for listing, creating and retrieving the Order model.
+    """
+
+    class Meta:
+        model = Order
         fields = "__all__"
         read_only_fields = ["id", "created_at", "updated_at"]
         extra_kwargs = {

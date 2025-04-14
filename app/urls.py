@@ -7,6 +7,7 @@ from rest_framework import routers
 
 from app.core.views import (
     AdditionalCategoryViewSet,
+    AddressViewSet,
     ItemViewSet,
     ProductCategoryViewSet,
     ProductViewSet,
@@ -18,6 +19,7 @@ admin.site.site_header = admin.site.site_title = "DISTRIBUTIO"
 
 # API URLs.
 router = routers.SimpleRouter()
+router.register("addresses", AddressViewSet, basename="address")
 router.register(
     "categories/additionals", AdditionalCategoryViewSet, basename="additional_category"
 )

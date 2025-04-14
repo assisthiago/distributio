@@ -1,9 +1,19 @@
-from rest_framework.viewsets import ModelViewSet
+from rest_framework import viewsets
 
-from app.core.models import AdditionalCategory, Item, Product, ProductCategory, User
+from app.core.models import (
+    AdditionalCategory,
+    Address,
+    Item,
+    Order,
+    Product,
+    ProductCategory,
+    User,
+)
 from app.core.serializers import (
     AdditionalCategorySerializer,
+    AddressSerializer,
     ItemSerializer,
+    OrderSerializer,
     ProductCategorySerializer,
     ProductSerializer,
     UserSerializer,
@@ -11,7 +21,21 @@ from app.core.serializers import (
 )
 
 
-class UserViewSet(ModelViewSet):
+class AddressViewSet(viewsets.ModelViewSet):
+    """
+    A viewset for viewing and editing address instances.
+    """
+
+    queryset = Address.objects.all()
+    serializer_class = AddressSerializer
+
+    def get_queryset(self):
+        queryset = super().get_queryset().filter(user=self.request.user)
+        queryset = queryset.select_related("user")
+        return queryset
+
+
+class UserViewSet(viewsets.ModelViewSet):
     """
     A viewset for viewing and editing user instances.
     """
@@ -25,7 +49,7 @@ class UserViewSet(ModelViewSet):
         return super().get_serializer_class()
 
 
-class ItemViewSet(ModelViewSet):
+class ItemViewSet(viewsets.ModelViewSet):
     """
     A viewset for viewing and editing item instances.
     """
@@ -34,7 +58,7 @@ class ItemViewSet(ModelViewSet):
     serializer_class = ItemSerializer
 
 
-class ProductCategoryViewSet(ModelViewSet):
+class ProductCategoryViewSet(viewsets.ModelViewSet):
     """
     A viewset for viewing and editing product category instances.
     """
@@ -43,7 +67,7 @@ class ProductCategoryViewSet(ModelViewSet):
     serializer_class = ProductCategorySerializer
 
 
-class AdditionalCategoryViewSet(ModelViewSet):
+class AdditionalCategoryViewSet(viewsets.ModelViewSet):
     """
     A viewset for viewing and editing additional category instances.
     """
@@ -52,7 +76,7 @@ class AdditionalCategoryViewSet(ModelViewSet):
     serializer_class = AdditionalCategorySerializer
 
 
-class ProductViewSet(ModelViewSet):
+class ProductViewSet(viewsets.ModelViewSet):
     """
     A viewset for viewing and editing product instances.
     """
@@ -63,4 +87,18 @@ class ProductViewSet(ModelViewSet):
     def get_queryset(self):
         queryset = super().get_queryset()
         queryset = queryset.prefetch_related("additional_categories")
+        return queryset
+
+
+class OrderViewSet(viewsets.ModelViewSet):
+    """
+    A viewset for viewing and editing order instances.
+    """
+
+    queryset = Order.objects.all()
+    serializer_class = OrderSerializer
+
+    def get_queryset(self):
+        queryset = super().get_queryset().filter(user=self.request.user)
+        queryset = queryset.select_related("user")
         return queryset
