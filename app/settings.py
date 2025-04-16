@@ -134,3 +134,19 @@ REST_FRAMEWORK = {
     ],
     "DEFAULT_FILTER_BACKENDS": ["django_filters.rest_framework.DjangoFilterBackend"],
 }
+
+# Email
+EMAIL_BACKEND = "django.core.mail.backends.console.EmailBackend"
+EMAIL_HOST_USER = config("EMAIL_HOST_USER", default="", cast=str)
+EMAIL_HOST_PASSWORD = config("EMAIL_HOST_PASSWORD", default="", cast=str)
+
+# Djoser
+DJOSER = {
+    "PASSWORD_RESET_CONFIRM_URL": "auth/password/reset/confirm/{uid}/{token}",
+    "SEND_CONFIRMATION_EMAIL": True,
+    "EMAIL_FRONTEND_DOMAIN": config(
+        "EMAIL_FRONTEND_DOMAIN", default="localhost:3000", cast=str
+    ),
+    "EMAIL_FRONTEND_SITE_NAME": "DISTRIBUTIO",
+    "ACTIVATION_URL": "client/active/{uid}/{token}/",
+}

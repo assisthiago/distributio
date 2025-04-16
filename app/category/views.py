@@ -15,8 +15,6 @@ class ProductCategoryViewSet(viewsets.ModelViewSet):
     A viewset for viewing and editing product category instances.
     """
 
-    permission_classes = [IsAuthenticated]
-
     queryset = ProductCategory.objects.all()
     serializer_class = ProductCategorySerializer
 
@@ -25,8 +23,6 @@ class AdditionalCategoryViewSet(viewsets.ModelViewSet):
     """
     A viewset for viewing and editing additional category instances.
     """
-
-    permission_classes = [IsAuthenticated]
 
     queryset = AdditionalCategory.objects.all()
     serializer_class = AdditionalCategorySerializer
