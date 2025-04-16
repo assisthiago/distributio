@@ -26,7 +26,7 @@ class AddressSerializer(serializers.ModelSerializer):
         ]
 
 
-class UserSerializer(serializers.ModelSerializer):
+class ClientUserSerializer(serializers.ModelSerializer):
     """
     Serializer for listing, creating and retrieving the User model.
     """

@@ -4,7 +4,11 @@ from rest_framework.authentication import BasicAuthentication, SessionAuthentica
 from rest_framework.permissions import IsAuthenticated
 
 from app.client.models import Address, Client
-from app.client.serializers import AddressSerializer, ClientSerializer, UserSerializer
+from app.client.serializers import (
+    AddressSerializer,
+    ClientSerializer,
+    ClientUserSerializer,
+)
 
 
 class UserViewSet(viewsets.ModelViewSet):
@@ -12,11 +16,10 @@ class UserViewSet(viewsets.ModelViewSet):
     API endpoint that allows users to be viewed or edited.
     """
 
-    authentication_classes = [SessionAuthentication, BasicAuthentication]
     permission_classes = [IsAuthenticated]
 
     queryset = User.objects.all()
-    serializer_class = UserSerializer
+    serializer_class = ClientUserSerializer
 
 
 class ClientViewSet(viewsets.ModelViewSet):
@@ -24,7 +27,6 @@ class ClientViewSet(viewsets.ModelViewSet):
     API endpoint that allows clients to be viewed or edited.
     """
 
-    authentication_classes = [SessionAuthentication, BasicAuthentication]
     permission_classes = [IsAuthenticated]
 
     queryset = Client.objects.all()
@@ -36,7 +38,6 @@ class AddressViewSet(viewsets.ModelViewSet):
     API endpoint that allows addresses to be viewed or edited.
     """
 
-    authentication_classes = [SessionAuthentication, BasicAuthentication]
     permission_classes = [IsAuthenticated]
 
     queryset = Address.objects.all()

@@ -11,7 +11,6 @@ class AdditionalViewSet(viewsets.ModelViewSet):
     API endpoint that allows additionals to be viewed or edited.
     """
 
-    authentication_classes = [SessionAuthentication, BasicAuthentication]
     permission_classes = [IsAuthenticated]
 
     queryset = Additional.objects.all()
@@ -23,7 +22,6 @@ class ProductViewSet(viewsets.ModelViewSet):
     API endpoint that allows products to be viewed or edited.
     """
 
-    authentication_classes = [SessionAuthentication, BasicAuthentication]
     permission_classes = [IsAuthenticated]
 
     queryset = Product.objects.all()
