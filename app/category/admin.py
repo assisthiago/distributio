@@ -10,7 +10,8 @@ class AdditionalCategoryAdmin(admin.ModelAdmin):
     radio_fields = {"type": admin.HORIZONTAL}
 
     # Change list view
-    list_display = ("title", "updated_at", "created_at")
+    list_display = ("title", "id", "show", "updated_at", "created_at")
+    list_editable = ("show",)
     ordering = ("-title",)
 
 
