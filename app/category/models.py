@@ -5,8 +5,8 @@ from app.product.models import Additional, Product
 
 class AdditionalCategory(models.Model):
     TYPE_CHOICES = (
-        ("choose one", "Escolher um"),
-        ("select multiple", "Selecionar vários"),
+        ("choose one", "Escolher uma opção"),
+        ("select multiple", "Selecionar várias opções"),
         ("add on", "Adicionar mais"),
     )
 

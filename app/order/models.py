@@ -37,8 +37,8 @@ class Order(models.Model):
         max_length=10,
     )
     delivery = models.BooleanField("entrega", default=False)
-    delivery_cost = models.DecimalField(
-        "custo de entrega",
+    delivery_fee = models.DecimalField(
+        "taxa de entrega",
         max_digits=10,
         decimal_places=2,
         default=0,
