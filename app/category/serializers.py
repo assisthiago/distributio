@@ -14,10 +14,6 @@ class AdditionalCategorySerializer(serializers.ModelSerializer):
         required=False,
         read_only=True,
     )
-    product = serializers.StringRelatedField(
-        required=False,
-        read_only=True,
-    )
 
     class Meta:
         model = AdditionalCategory
@@ -25,7 +21,7 @@ class AdditionalCategorySerializer(serializers.ModelSerializer):
         read_only_fields = ["id", "created_at", "updated_at"]
         extra_kwargs = {
             "image": {"write_only": True},
-            "product": {"write_only": True},
+            "products": {"write_only": True},
             "additionals": {"write_only": True},
         }
 

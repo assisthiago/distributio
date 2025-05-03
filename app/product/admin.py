@@ -1,6 +1,5 @@
 from django.contrib import admin
 
-from app.category.admin import AdditionalCategoryInline
 from app.product.models import Additional, Product
 
 
@@ -17,7 +16,6 @@ class AdditionalAdmin(admin.ModelAdmin):
 @admin.register(Product)
 class ProductAdmin(admin.ModelAdmin):
     # Add/Change
-    inlines = [AdditionalCategoryInline]
     radio_fields = {"unit": admin.VERTICAL}
 
     # Change list view

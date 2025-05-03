@@ -20,17 +20,16 @@ class AdditionalCategory(models.Model):
         choices=TYPE_CHOICES,
     )
     required = models.BooleanField("obrigatório", default=False)
+    order = models.IntegerField("ordem", default=0)
     created_at = models.DateTimeField("criado em", auto_now_add=True)
     updated_at = models.DateTimeField("atualizado em", auto_now=True)
 
     # Relationships
-    product = models.ForeignKey(
+    products = models.ManyToManyField(
         Product,
-        verbose_name="produto",
+        verbose_name="produtos",
         related_name="additional_categories",
-        on_delete=models.CASCADE,
         blank=True,
-        null=True,
         default=None,
     )
 

@@ -1,0 +1,2663 @@
+[
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2025-04-14T20:40:01.489Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "2",
+    "object_repr": "thiago.assis",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2025-04-14T20:40:25.845Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "2",
+    "object_repr": "thiago.assis",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"First name\", \"Last name\", \"Email address\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2025-04-14T20:41:04.615Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Thiago Assis",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2025-04-14T20:48:48.909Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "2",
+    "object_repr": "thiago.assis",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"password\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2025-04-14T20:50:47.688Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "1",
+    "object_repr": "Rua Jornalista Maria Lisboa",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2025-04-14T21:17:42.624Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "1",
+    "object_repr": "Pão",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2025-04-14T21:18:31.441Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "2",
+    "object_repr": "Carne",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2025-04-14T21:18:58.849Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "3",
+    "object_repr": "Bacon",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2025-04-14T21:19:17.443Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "4",
+    "object_repr": "Queijo",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2025-04-14T21:19:38.022Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "5",
+    "object_repr": "Coca Cola",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2025-04-14T21:20:13.175Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "6",
+    "object_repr": "Batata frita (P)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 12,
+  "fields": {
+    "action_time": "2025-04-14T21:20:36.344Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "7",
+    "object_repr": "Batata frita (M)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 13,
+  "fields": {
+    "action_time": "2025-04-14T21:20:56.043Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "8",
+    "object_repr": "Batata frita (G)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 14,
+  "fields": {
+    "action_time": "2025-04-14T21:21:16.492Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "9",
+    "object_repr": "Salada",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 15,
+  "fields": {
+    "action_time": "2025-04-14T21:21:31.957Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "10",
+    "object_repr": "Tomate",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 16,
+  "fields": {
+    "action_time": "2025-04-14T21:22:04.452Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "11",
+    "object_repr": "Água com gás",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 17,
+  "fields": {
+    "action_time": "2025-04-14T21:22:39.671Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "10",
+    "object_repr": "Tomate",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Descri\\u00e7\\u00e3o\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 18,
+  "fields": {
+    "action_time": "2025-04-14T21:23:10.524Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "9",
+    "object_repr": "Salada",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Descri\\u00e7\\u00e3o\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 19,
+  "fields": {
+    "action_time": "2025-04-14T21:23:28.490Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "4",
+    "object_repr": "Queijo",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Descri\\u00e7\\u00e3o\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 20,
+  "fields": {
+    "action_time": "2025-04-14T21:23:39.372Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "1",
+    "object_repr": "Pão",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Descri\\u00e7\\u00e3o\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 21,
+  "fields": {
+    "action_time": "2025-04-14T21:23:48.097Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "5",
+    "object_repr": "Coca Cola",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Descri\\u00e7\\u00e3o\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 22,
+  "fields": {
+    "action_time": "2025-04-14T21:23:55.597Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "2",
+    "object_repr": "Carne",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Descri\\u00e7\\u00e3o\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 23,
+  "fields": {
+    "action_time": "2025-04-14T21:24:03.948Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "6",
+    "object_repr": "Batata frita (P)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Descri\\u00e7\\u00e3o\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 24,
+  "fields": {
+    "action_time": "2025-04-14T21:24:12.998Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "7",
+    "object_repr": "Batata frita (M)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Descri\\u00e7\\u00e3o\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 25,
+  "fields": {
+    "action_time": "2025-04-14T21:24:21.873Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "8",
+    "object_repr": "Batata frita (G)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Descri\\u00e7\\u00e3o\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 26,
+  "fields": {
+    "action_time": "2025-04-14T21:24:28.841Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "3",
+    "object_repr": "Bacon",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Descri\\u00e7\\u00e3o\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 27,
+  "fields": {
+    "action_time": "2025-04-14T21:24:37.110Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "11",
+    "object_repr": "Água com gás",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Descri\\u00e7\\u00e3o\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 28,
+  "fields": {
+    "action_time": "2025-04-14T21:27:18.484Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "1",
+    "object_repr": "Trio Bye Bye Bird",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 29,
+  "fields": {
+    "action_time": "2025-04-14T21:28:07.846Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "1",
+    "object_repr": "Trio Bye Bye Bird",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Descri\\u00e7\\u00e3o\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 30,
+  "fields": {
+    "action_time": "2025-04-14T21:48:38.987Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "1",
+    "object_repr": "Bacon",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 31,
+  "fields": {
+    "action_time": "2025-04-14T21:49:04.121Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "2",
+    "object_repr": "Pão",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 32,
+  "fields": {
+    "action_time": "2025-04-14T21:49:30.901Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "3",
+    "object_repr": "Carne",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 33,
+  "fields": {
+    "action_time": "2025-04-14T21:50:10.647Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "4",
+    "object_repr": "Queijo",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 34,
+  "fields": {
+    "action_time": "2025-04-14T21:50:39.904Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "5",
+    "object_repr": "Coca Cola",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 35,
+  "fields": {
+    "action_time": "2025-04-14T21:51:06.233Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "6",
+    "object_repr": "Batata frita (P)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 36,
+  "fields": {
+    "action_time": "2025-04-14T21:51:29.891Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "7",
+    "object_repr": "Batata frita (M)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 37,
+  "fields": {
+    "action_time": "2025-04-14T21:52:12.725Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "8",
+    "object_repr": "Batata frita (G)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 38,
+  "fields": {
+    "action_time": "2025-04-14T21:52:32.271Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "9",
+    "object_repr": "Salada",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 39,
+  "fields": {
+    "action_time": "2025-04-14T21:53:01.541Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "10",
+    "object_repr": "Água com gás",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 40,
+  "fields": {
+    "action_time": "2025-04-14T21:53:25.628Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "11",
+    "object_repr": "Tomate",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 41,
+  "fields": {
+    "action_time": "2025-04-14T21:56:07.750Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "1",
+    "object_repr": "Trio Bye Bye Bird",
+    "action_flag": 2,
+    "change_message": "[{\"added\": {\"name\": \"Adicional\", \"object\": \"Donec ante orci, rhoncus sed turpis.\"}}, {\"added\": {\"name\": \"Adicional\", \"object\": \"Nulla aliquam finibus mauris, ac feugiat.\"}}, {\"added\": {\"name\": \"Adicional\", \"object\": \"Integer tortor neque, fringilla sit amet.\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 42,
+  "fields": {
+    "action_time": "2025-04-14T22:01:49.559Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "1",
+    "object_repr": "Nulla magna risus, egestas vel arcu.",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 43,
+  "fields": {
+    "action_time": "2025-04-14T22:23:06.903Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "1",
+    "object_repr": "Pedido #001",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 44,
+  "fields": {
+    "action_time": "2025-04-15T21:49:35.077Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "2",
+    "object_repr": "thiago.assis",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Email address\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 45,
+  "fields": {
+    "action_time": "2025-04-15T22:22:24.078Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "2",
+    "object_repr": "thiago.assis",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 46,
+  "fields": {
+    "action_time": "2025-04-16T17:36:22.085Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "3",
+    "object_repr": "thiago.assis",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 47,
+  "fields": {
+    "action_time": "2025-04-16T17:38:03.595Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "4",
+    "object_repr": "thiago.assis",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 48,
+  "fields": {
+    "action_time": "2025-04-16T17:39:33.197Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "5",
+    "object_repr": "thiago.assis",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 49,
+  "fields": {
+    "action_time": "2025-04-16T17:51:17.072Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "6",
+    "object_repr": "thiago.assis",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 50,
+  "fields": {
+    "action_time": "2025-04-16T18:03:01.038Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "7",
+    "object_repr": "assis.m.thiago@gmail.com",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 51,
+  "fields": {
+    "action_time": "2025-04-16T18:03:41.087Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "8",
+    "object_repr": "assis.m.thiago@gmail.com",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 52,
+  "fields": {
+    "action_time": "2025-04-16T18:04:54.452Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "9",
+    "object_repr": "assis.m.thiago@gmail.com",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 53,
+  "fields": {
+    "action_time": "2025-04-17T18:38:35.789Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "3",
+    "object_repr": "Integer tortor neque, fringilla sit amet.",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Exibir\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 54,
+  "fields": {
+    "action_time": "2025-04-17T20:33:24.010Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "6",
+    "object_repr": "Batata frita (P)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Imagem\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 55,
+  "fields": {
+    "action_time": "2025-04-17T20:33:33.793Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "6",
+    "object_repr": "Batata frita (P)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Imagem\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 56,
+  "fields": {
+    "action_time": "2025-04-17T20:33:38.406Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "7",
+    "object_repr": "Batata frita (M)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Imagem\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 57,
+  "fields": {
+    "action_time": "2025-04-17T20:33:46.273Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "7",
+    "object_repr": "Batata frita (M)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Imagem\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 58,
+  "fields": {
+    "action_time": "2025-04-17T20:33:52.642Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "8",
+    "object_repr": "Batata frita (G)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Imagem\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 59,
+  "fields": {
+    "action_time": "2025-04-17T20:33:57.274Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "8",
+    "object_repr": "Batata frita (G)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Imagem\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 60,
+  "fields": {
+    "action_time": "2025-04-22T20:27:35.251Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "1",
+    "object_repr": "Trio Bye Bye Bird",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Imagem\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 61,
+  "fields": {
+    "action_time": "2025-04-22T20:27:54.755Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "1",
+    "object_repr": "Trio Bye Bye Bird",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Imagem\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 62,
+  "fields": {
+    "action_time": "2025-04-24T21:58:20.138Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "11",
+    "object_repr": "thiago.medassis@gmail.com",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 63,
+  "fields": {
+    "action_time": "2025-04-25T19:40:18.864Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "14",
+    "object_repr": "asd@asd.com",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 64,
+  "fields": {
+    "action_time": "2025-04-25T19:40:18.864Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "15",
+    "object_repr": "asd@asdasdasda.com",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 65,
+  "fields": {
+    "action_time": "2025-04-25T19:40:18.864Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "10",
+    "object_repr": "assis.m.thiago@gmail.com",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 66,
+  "fields": {
+    "action_time": "2025-04-25T19:40:18.864Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "13",
+    "object_repr": "thiago@assis.com",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 67,
+  "fields": {
+    "action_time": "2025-04-25T19:40:18.864Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "12",
+    "object_repr": "thiago@emai.com",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 68,
+  "fields": {
+    "action_time": "2025-04-28T20:20:03.842Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "12",
+    "object_repr": "Ketchup",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 69,
+  "fields": {
+    "action_time": "2025-04-28T20:20:26.201Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "13",
+    "object_repr": "Mostarda",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 70,
+  "fields": {
+    "action_time": "2025-04-28T20:20:42.259Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "14",
+    "object_repr": "Pimenta",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 71,
+  "fields": {
+    "action_time": "2025-04-28T20:21:12.777Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "4",
+    "object_repr": "Sed ut mollis ante",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 72,
+  "fields": {
+    "action_time": "2025-04-28T20:42:09.521Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "4",
+    "object_repr": "Sed ut mollis ante",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Exibir\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 73,
+  "fields": {
+    "action_time": "2025-04-28T20:42:09.523Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "3",
+    "object_repr": "Integer tortor neque, fringilla sit amet.",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Exibir\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 74,
+  "fields": {
+    "action_time": "2025-04-28T20:49:58.700Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "4",
+    "object_repr": "Sed ut mollis ante",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Obrigat\\u00f3rio\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 75,
+  "fields": {
+    "action_time": "2025-04-28T20:49:58.703Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "1",
+    "object_repr": "Donec ante orci, rhoncus sed turpis.",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Obrigat\\u00f3rio\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 76,
+  "fields": {
+    "action_time": "2025-04-28T21:47:49.496Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "2",
+    "object_repr": "Nulla aliquam finibus mauris, ac feugiat.",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Obrigat\\u00f3rio\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 77,
+  "fields": {
+    "action_time": "2025-04-28T21:47:49.499Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "3",
+    "object_repr": "Integer tortor neque, fringilla sit amet.",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Obrigat\\u00f3rio\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 78,
+  "fields": {
+    "action_time": "2025-04-28T21:47:49.502Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "1",
+    "object_repr": "Donec ante orci, rhoncus sed turpis.",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Obrigat\\u00f3rio\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 79,
+  "fields": {
+    "action_time": "2025-04-28T22:05:00.588Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "4",
+    "object_repr": "Sed ut mollis ante",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Obrigat\\u00f3rio\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 80,
+  "fields": {
+    "action_time": "2025-04-28T22:05:00.590Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "2",
+    "object_repr": "Nulla aliquam finibus mauris, ac feugiat.",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Obrigat\\u00f3rio\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 81,
+  "fields": {
+    "action_time": "2025-04-28T22:05:00.592Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "3",
+    "object_repr": "Integer tortor neque, fringilla sit amet.",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Obrigat\\u00f3rio\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 82,
+  "fields": {
+    "action_time": "2025-04-29T20:17:21.973Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "4",
+    "object_repr": "Sed ut mollis ante",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Obrigat\\u00f3rio\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 83,
+  "fields": {
+    "action_time": "2025-04-29T20:17:21.982Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "1",
+    "object_repr": "Donec ante orci, rhoncus sed turpis.",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Obrigat\\u00f3rio\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 84,
+  "fields": {
+    "action_time": "2025-04-29T20:18:04.152Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "2",
+    "object_repr": "Nulla aliquam finibus mauris, ac feugiat.",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Obrigat\\u00f3rio\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 85,
+  "fields": {
+    "action_time": "2025-04-29T20:18:04.154Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "3",
+    "object_repr": "Integer tortor neque, fringilla sit amet.",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Obrigat\\u00f3rio\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 86,
+  "fields": {
+    "action_time": "2025-04-29T20:18:04.156Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "1",
+    "object_repr": "Donec ante orci, rhoncus sed turpis.",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Obrigat\\u00f3rio\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 87,
+  "fields": {
+    "action_time": "2025-04-29T20:19:13.226Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "4",
+    "object_repr": "Sed ut mollis ante",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Obrigat\\u00f3rio\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 88,
+  "fields": {
+    "action_time": "2025-05-03T16:56:10.705Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "3",
+    "object_repr": "Selecione sua bebida",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"T\\u00edtulo\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 89,
+  "fields": {
+    "action_time": "2025-05-03T16:56:45.065Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "4",
+    "object_repr": "Escolha o(s) molho(s)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"T\\u00edtulo\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 90,
+  "fields": {
+    "action_time": "2025-05-03T16:57:17.483Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "1",
+    "object_repr": "Adicione mais sabor",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"T\\u00edtulo\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 91,
+  "fields": {
+    "action_time": "2025-05-03T16:57:36.330Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "2",
+    "object_repr": "Selecione suas fritas",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"T\\u00edtulo\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 92,
+  "fields": {
+    "action_time": "2025-05-03T16:59:21.248Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "2",
+    "object_repr": "Selecione suas fritas",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Produtos\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 93,
+  "fields": {
+    "action_time": "2025-05-03T16:59:25.083Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "3",
+    "object_repr": "Selecione sua bebida",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Produtos\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 94,
+  "fields": {
+    "action_time": "2025-05-03T16:59:30.500Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "4",
+    "object_repr": "Escolha o(s) molho(s)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Produtos\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 95,
+  "fields": {
+    "action_time": "2025-05-03T16:59:33.763Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "4",
+    "object_repr": "Escolha o(s) molho(s)",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 96,
+  "fields": {
+    "action_time": "2025-05-03T16:59:37.319Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "1",
+    "object_repr": "Adicione mais sabor",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Produtos\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 97,
+  "fields": {
+    "action_time": "2025-05-03T16:59:46.998Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "2",
+    "object_repr": "Selecione suas fritas",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Obrigat\\u00f3rio\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 98,
+  "fields": {
+    "action_time": "2025-05-03T16:59:47.000Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "3",
+    "object_repr": "Selecione sua bebida",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Obrigat\\u00f3rio\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 99,
+  "fields": {
+    "action_time": "2025-05-03T17:08:24.938Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "1",
+    "object_repr": "Adicione mais sabor",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Ordem\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 100,
+  "fields": {
+    "action_time": "2025-05-03T17:08:24.941Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "4",
+    "object_repr": "Escolha o(s) molho(s)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Ordem\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 101,
+  "fields": {
+    "action_time": "2025-05-03T17:08:24.943Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "3",
+    "object_repr": "Selecione sua bebida",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Ordem\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 102,
+  "fields": {
+    "action_time": "2025-05-03T17:08:24.945Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "2",
+    "object_repr": "Selecione suas fritas",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Ordem\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 103,
+  "fields": {
+    "action_time": "2025-05-03T17:09:39.488Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "1",
+    "object_repr": "Trios do Distributio",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"T\\u00edtulo\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 104,
+  "fields": {
+    "action_time": "2025-05-03T17:12:08.935Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "2",
+    "object_repr": "Trio de Anchieita",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 105,
+  "fields": {
+    "action_time": "2025-05-03T17:12:18.670Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "1",
+    "object_repr": "Trios do Distributio",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Produtos\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 106,
+  "fields": {
+    "action_time": "2025-05-03T17:14:09.334Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "1",
+    "object_repr": "Adicione mais sabor",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Produtos\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 107,
+  "fields": {
+    "action_time": "2025-05-03T17:14:15.418Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "4",
+    "object_repr": "Escolha o(s) molho(s)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Produtos\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 108,
+  "fields": {
+    "action_time": "2025-05-03T17:14:19.130Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "2",
+    "object_repr": "Selecione suas fritas",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Produtos\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 109,
+  "fields": {
+    "action_time": "2025-05-03T17:14:22.664Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "3",
+    "object_repr": "Selecione sua bebida",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Produtos\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 110,
+  "fields": {
+    "action_time": "2025-05-03T17:36:24.119Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "2",
+    "object_repr": "Selecione suas fritas",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Obrigat\\u00f3rio\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 111,
+  "fields": {
+    "action_time": "2025-05-03T17:36:24.121Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "3",
+    "object_repr": "Selecione sua bebida",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Obrigat\\u00f3rio\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 112,
+  "fields": {
+    "action_time": "2025-05-03T17:36:55.142Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "2",
+    "object_repr": "Selecione suas fritas",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Obrigat\\u00f3rio\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 113,
+  "fields": {
+    "action_time": "2025-05-03T17:36:55.144Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "3",
+    "object_repr": "Selecione sua bebida",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Obrigat\\u00f3rio\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 114,
+  "fields": {
+    "action_time": "2025-05-03T18:11:36.893Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "1",
+    "object_repr": "Adicione mais sabor",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Exibir\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 115,
+  "fields": {
+    "action_time": "2025-05-03T18:11:36.896Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "4",
+    "object_repr": "Escolha o(s) molho(s)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Exibir\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 116,
+  "fields": {
+    "action_time": "2025-05-03T18:24:04.255Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "1",
+    "object_repr": "Adicione mais sabor",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Exibir\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 117,
+  "fields": {
+    "action_time": "2025-05-03T18:24:04.258Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "4",
+    "object_repr": "Escolha o(s) molho(s)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Exibir\"]}}]"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 1,
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": 1,
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 2,
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": 1,
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 3,
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": 1,
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 4,
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": 1,
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 5,
+  "fields": {
+    "name": "Can add permission",
+    "content_type": 2,
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 6,
+  "fields": {
+    "name": "Can change permission",
+    "content_type": 2,
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 7,
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": 2,
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 8,
+  "fields": {
+    "name": "Can view permission",
+    "content_type": 2,
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 9,
+  "fields": {
+    "name": "Can add group",
+    "content_type": 3,
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 10,
+  "fields": {
+    "name": "Can change group",
+    "content_type": 3,
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 11,
+  "fields": {
+    "name": "Can delete group",
+    "content_type": 3,
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 12,
+  "fields": {
+    "name": "Can view group",
+    "content_type": 3,
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 13,
+  "fields": {
+    "name": "Can add user",
+    "content_type": 4,
+    "codename": "add_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 14,
+  "fields": {
+    "name": "Can change user",
+    "content_type": 4,
+    "codename": "change_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 15,
+  "fields": {
+    "name": "Can delete user",
+    "content_type": 4,
+    "codename": "delete_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 16,
+  "fields": {
+    "name": "Can view user",
+    "content_type": 4,
+    "codename": "view_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 17,
+  "fields": {
+    "name": "Can add content type",
+    "content_type": 5,
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 18,
+  "fields": {
+    "name": "Can change content type",
+    "content_type": 5,
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 19,
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": 5,
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 20,
+  "fields": {
+    "name": "Can view content type",
+    "content_type": 5,
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 21,
+  "fields": {
+    "name": "Can add session",
+    "content_type": 6,
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 22,
+  "fields": {
+    "name": "Can change session",
+    "content_type": 6,
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 23,
+  "fields": {
+    "name": "Can delete session",
+    "content_type": 6,
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 24,
+  "fields": {
+    "name": "Can view session",
+    "content_type": 6,
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 25,
+  "fields": {
+    "name": "Can add cliente",
+    "content_type": 7,
+    "codename": "add_client"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 26,
+  "fields": {
+    "name": "Can change cliente",
+    "content_type": 7,
+    "codename": "change_client"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 27,
+  "fields": {
+    "name": "Can delete cliente",
+    "content_type": 7,
+    "codename": "delete_client"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 28,
+  "fields": {
+    "name": "Can view cliente",
+    "content_type": 7,
+    "codename": "view_client"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 29,
+  "fields": {
+    "name": "Can add endereço",
+    "content_type": 8,
+    "codename": "add_address"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 30,
+  "fields": {
+    "name": "Can change endereço",
+    "content_type": 8,
+    "codename": "change_address"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 31,
+  "fields": {
+    "name": "Can delete endereço",
+    "content_type": 8,
+    "codename": "delete_address"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 32,
+  "fields": {
+    "name": "Can view endereço",
+    "content_type": 8,
+    "codename": "view_address"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 33,
+  "fields": {
+    "name": "Can add item",
+    "content_type": 9,
+    "codename": "add_item"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 34,
+  "fields": {
+    "name": "Can change item",
+    "content_type": 9,
+    "codename": "change_item"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 35,
+  "fields": {
+    "name": "Can delete item",
+    "content_type": 9,
+    "codename": "delete_item"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 36,
+  "fields": {
+    "name": "Can view item",
+    "content_type": 9,
+    "codename": "view_item"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 37,
+  "fields": {
+    "name": "Can add produto",
+    "content_type": 10,
+    "codename": "add_product"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 38,
+  "fields": {
+    "name": "Can change produto",
+    "content_type": 10,
+    "codename": "change_product"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 39,
+  "fields": {
+    "name": "Can delete produto",
+    "content_type": 10,
+    "codename": "delete_product"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 40,
+  "fields": {
+    "name": "Can view produto",
+    "content_type": 10,
+    "codename": "view_product"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 41,
+  "fields": {
+    "name": "Can add Adicional",
+    "content_type": 11,
+    "codename": "add_additionalcategory"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 42,
+  "fields": {
+    "name": "Can change Adicional",
+    "content_type": 11,
+    "codename": "change_additionalcategory"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 43,
+  "fields": {
+    "name": "Can delete Adicional",
+    "content_type": 11,
+    "codename": "delete_additionalcategory"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 44,
+  "fields": {
+    "name": "Can view Adicional",
+    "content_type": 11,
+    "codename": "view_additionalcategory"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 45,
+  "fields": {
+    "name": "Can add produto",
+    "content_type": 12,
+    "codename": "add_productcategory"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 46,
+  "fields": {
+    "name": "Can change produto",
+    "content_type": 12,
+    "codename": "change_productcategory"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 47,
+  "fields": {
+    "name": "Can delete produto",
+    "content_type": 12,
+    "codename": "delete_productcategory"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 48,
+  "fields": {
+    "name": "Can view produto",
+    "content_type": 12,
+    "codename": "view_productcategory"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 49,
+  "fields": {
+    "name": "Can add adicional",
+    "content_type": 13,
+    "codename": "add_additional"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 50,
+  "fields": {
+    "name": "Can change adicional",
+    "content_type": 13,
+    "codename": "change_additional"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 51,
+  "fields": {
+    "name": "Can delete adicional",
+    "content_type": 13,
+    "codename": "delete_additional"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 52,
+  "fields": {
+    "name": "Can view adicional",
+    "content_type": 13,
+    "codename": "view_additional"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 53,
+  "fields": {
+    "name": "Can add pedido",
+    "content_type": 14,
+    "codename": "add_order"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 54,
+  "fields": {
+    "name": "Can change pedido",
+    "content_type": 14,
+    "codename": "change_order"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 55,
+  "fields": {
+    "name": "Can delete pedido",
+    "content_type": 14,
+    "codename": "delete_order"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 56,
+  "fields": {
+    "name": "Can view pedido",
+    "content_type": 14,
+    "codename": "view_order"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 57,
+  "fields": {
+    "name": "Can add Password Reset Token",
+    "content_type": 15,
+    "codename": "add_resetpasswordtoken"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 58,
+  "fields": {
+    "name": "Can change Password Reset Token",
+    "content_type": 15,
+    "codename": "change_resetpasswordtoken"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 59,
+  "fields": {
+    "name": "Can delete Password Reset Token",
+    "content_type": 15,
+    "codename": "delete_resetpasswordtoken"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 60,
+  "fields": {
+    "name": "Can view Password Reset Token",
+    "content_type": 15,
+    "codename": "view_resetpasswordtoken"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 61,
+  "fields": {
+    "name": "Can add Token",
+    "content_type": 16,
+    "codename": "add_token"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 62,
+  "fields": {
+    "name": "Can change Token",
+    "content_type": 16,
+    "codename": "change_token"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 63,
+  "fields": {
+    "name": "Can delete Token",
+    "content_type": 16,
+    "codename": "delete_token"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 64,
+  "fields": {
+    "name": "Can view Token",
+    "content_type": 16,
+    "codename": "view_token"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 65,
+  "fields": {
+    "name": "Can add Token",
+    "content_type": 17,
+    "codename": "add_tokenproxy"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 66,
+  "fields": {
+    "name": "Can change Token",
+    "content_type": 17,
+    "codename": "change_tokenproxy"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 67,
+  "fields": {
+    "name": "Can delete Token",
+    "content_type": 17,
+    "codename": "delete_tokenproxy"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 68,
+  "fields": {
+    "name": "Can view Token",
+    "content_type": 17,
+    "codename": "view_tokenproxy"
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$870000$GKKCUuB8J37D1awH4hIMB8$KvHlwIX+vloeS4L98NFfOqmylCYXMuJHXlqZQ4Uh3AM=",
+    "last_login": "2025-04-28T20:49:54.745Z",
+    "is_superuser": true,
+    "username": "admin",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2025-04-14T20:28:15.278Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 16,
+  "fields": {
+    "password": "pbkdf2_sha256$870000$RPHvdsISlatzDtKpWUctQC$jllOcWQ7HqkSUDR5CbqobB3agmVJTivDmmKsGUMBV7I=",
+    "last_login": "2025-04-25T20:51:11.006Z",
+    "is_superuser": false,
+    "username": "thiago@assis.com",
+    "first_name": "",
+    "last_name": "",
+    "email": "thiago@assis.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-04-25T19:40:59.371Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 1,
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 2,
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 3,
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 4,
+  "fields": {
+    "app_label": "auth",
+    "model": "user"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 5,
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 6,
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 7,
+  "fields": {
+    "app_label": "client",
+    "model": "client"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 8,
+  "fields": {
+    "app_label": "client",
+    "model": "address"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 9,
+  "fields": {
+    "app_label": "product",
+    "model": "item"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 10,
+  "fields": {
+    "app_label": "product",
+    "model": "product"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 11,
+  "fields": {
+    "app_label": "category",
+    "model": "additionalcategory"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 12,
+  "fields": {
+    "app_label": "category",
+    "model": "productcategory"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 13,
+  "fields": {
+    "app_label": "product",
+    "model": "additional"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 14,
+  "fields": {
+    "app_label": "order",
+    "model": "order"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 15,
+  "fields": {
+    "app_label": "django_rest_passwordreset",
+    "model": "resetpasswordtoken"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 16,
+  "fields": {
+    "app_label": "authtoken",
+    "model": "token"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 17,
+  "fields": {
+    "app_label": "authtoken",
+    "model": "tokenproxy"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "2rpit1xid35cc0yc1szozyl2m27nuzim",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQBe_iGln-J6akzxmstXeDA8iW4qRC3B1HSgHtzLz3ZgH2LYe90RoWZFcm2eWXRUhPKofAB5R75amWbV0iPxJ-2sanivS6ne3fQYaW-9r70RgymKybpQSntFWDJe2iUQlQJOxAazMQCa-wa5QknB8xQYTZs88Xx3s3nw:1u4QjY:IR9MbjXIvfmbDoECpmKyvJhnzLc7cLP-Kh94Nh6KkHY",
+    "expire_date": "2025-04-28T20:48:48.960Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "aqpgt6xj7203kdixvd6j5gy6u5tu158r",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQBe_iGln-J6akzxmstXeDA8iW4qRC3B1HSgHtzLz3ZgH2LYe90RoWZFcm2eWXRUhPKofAB5R75amWbV0iPxJ-2sanivS6ne3fQYaW-9r70RgymKybpQSntFWDJe2iUQlQJOxAazMQCa-wa5QknB8xQYTZs88Xx3s3nw:1u9VQI:vUS-BhuWkLJ9jGli_cnjginZZmK5NeSYf0HSUtt5W2g",
+    "expire_date": "2025-05-12T20:49:54.778Z"
+  }
+},
+{
+  "model": "authtoken.token",
+  "pk": "5d000003f1cc3c4e589494969890b72cac122454",
+  "fields": {
+    "user": 16,
+    "created": "2025-04-25T20:42:09.845Z"
+  }
+},
+{
+  "model": "category.additionalcategory",
+  "pk": 1,
+  "fields": {
+    "title": "Adicione mais sabor",
+    "subtitle": "Nulla aliquam finibus mauris, ac feugiat.",
+    "show": true,
+    "type": "select multiple",
+    "required": false,
+    "order": 1,
+    "created_at": "2025-04-14T21:56:07.736Z",
+    "updated_at": "2025-05-03T18:24:04.254Z",
+    "products": [
+      1,
+      2
+    ],
+    "additionals": [
+      1,
+      3,
+      4,
+      9,
+      11
+    ]
+  }
+},
+{
+  "model": "category.additionalcategory",
+  "pk": 2,
+  "fields": {
+    "title": "Selecione suas fritas",
+    "subtitle": "Nunc in tempor nisi. Phasellus nec.",
+    "show": true,
+    "type": "choose one",
+    "required": true,
+    "order": 3,
+    "created_at": "2025-04-14T21:56:07.742Z",
+    "updated_at": "2025-05-03T17:36:55.140Z",
+    "products": [
+      1,
+      2
+    ],
+    "additionals": [
+      8,
+      6,
+      7
+    ]
+  }
+},
+{
+  "model": "category.additionalcategory",
+  "pk": 3,
+  "fields": {
+    "title": "Selecione sua bebida",
+    "subtitle": "Suspendisse fermentum erat a accumsan ornare.",
+    "show": true,
+    "type": "choose one",
+    "required": true,
+    "order": 4,
+    "created_at": "2025-04-14T21:56:07.747Z",
+    "updated_at": "2025-05-03T17:36:55.143Z",
+    "products": [
+      1,
+      2
+    ],
+    "additionals": [
+      10,
+      5
+    ]
+  }
+},
+{
+  "model": "category.additionalcategory",
+  "pk": 4,
+  "fields": {
+    "title": "Escolha o(s) molho(s)",
+    "subtitle": "Nunc fringilla ante ut lacinia congue. Cras elementum massa at accumsan ultricies.",
+    "show": true,
+    "type": "add on",
+    "required": false,
+    "order": 2,
+    "created_at": "2025-04-28T20:21:12.771Z",
+    "updated_at": "2025-05-03T18:24:04.257Z",
+    "products": [
+      1,
+      2
+    ],
+    "additionals": [
+      12,
+      13,
+      14
+    ]
+  }
+},
+{
+  "model": "category.productcategory",
+  "pk": 1,
+  "fields": {
+    "title": "Trios do Distributio",
+    "subtitle": "Nulla facilisi. Etiam eu turpis ac.",
+    "show": true,
+    "created_at": "2025-04-14T22:01:49.554Z",
+    "updated_at": "2025-05-03T17:12:18.664Z",
+    "products": [
+      1,
+      2
+    ]
+  }
+},
+{
+  "model": "product.additional",
+  "pk": 1,
+  "fields": {
+    "name": "Bacon",
+    "description": "Donec velit eros, placerat ut neque non, convallis lobortis nibh. Nulla a.",
+    "price": "2.99",
+    "size": 25,
+    "unit": "g",
+    "image": "media/items/bacon_B6m1K7s.jpg",
+    "created_at": "2025-04-14T21:48:38.985Z",
+    "updated_at": "2025-04-14T21:48:38.985Z"
+  }
+},
+{
+  "model": "product.additional",
+  "pk": 2,
+  "fields": {
+    "name": "Pão",
+    "description": "Donec sed congue justo. Nunc non sapien vitae justo lobortis gravida ut.",
+    "price": "2.89",
+    "size": 2,
+    "unit": "un",
+    "image": "media/items/bread_qI8OloD.jpg",
+    "created_at": "2025-04-14T21:49:04.120Z",
+    "updated_at": "2025-04-14T21:49:04.120Z"
+  }
+},
+{
+  "model": "product.additional",
+  "pk": 3,
+  "fields": {
+    "name": "Carne",
+    "description": "Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
+    "price": "8.99",
+    "size": 180,
+    "unit": "g",
+    "image": "media/items/burger_3qiLJrh.jpg",
+    "created_at": "2025-04-14T21:49:30.898Z",
+    "updated_at": "2025-04-14T21:49:30.898Z"
+  }
+},
+{
+  "model": "product.additional",
+  "pk": 4,
+  "fields": {
+    "name": "Queijo",
+    "description": "In pulvinar dui vel cursus pellentesque. Vestibulum ut lacus non tortor cursus.",
+    "price": "1.99",
+    "size": 2,
+    "unit": "un",
+    "image": "media/items/cheese_OitpO9L.jpg",
+    "created_at": "2025-04-14T21:50:10.645Z",
+    "updated_at": "2025-04-14T21:50:10.645Z"
+  }
+},
+{
+  "model": "product.additional",
+  "pk": 5,
+  "fields": {
+    "name": "Coca Cola",
+    "description": "Sed id tortor sodales, sodales odio vitae, efficitur orci. Proin semper ullamcorper.",
+    "price": "6.29",
+    "size": 350,
+    "unit": "ml",
+    "image": "media/items/coca-cola_k6WvGwE.jpg",
+    "created_at": "2025-04-14T21:50:39.900Z",
+    "updated_at": "2025-04-14T21:50:39.900Z"
+  }
+},
+{
+  "model": "product.additional",
+  "pk": 6,
+  "fields": {
+    "name": "Batata frita (P)",
+    "description": "Duis scelerisque enim nisi, vel dictum libero placerat quis. Maecenas pulvinar quis.",
+    "price": "4.59",
+    "size": 100,
+    "unit": "g",
+    "image": "media/items/fried-potato_o9BPAQ7.jpg",
+    "created_at": "2025-04-14T21:51:06.231Z",
+    "updated_at": "2025-04-17T20:33:33.792Z"
+  }
+},
+{
+  "model": "product.additional",
+  "pk": 7,
+  "fields": {
+    "name": "Batata frita (M)",
+    "description": "Duis scelerisque enim nisi, vel dictum libero placerat quis. Maecenas pulvinar quis.",
+    "price": "7.99",
+    "size": 180,
+    "unit": "g",
+    "image": "media/items/fried-potato_Ldk5Sqn.jpg",
+    "created_at": "2025-04-14T21:51:29.890Z",
+    "updated_at": "2025-04-17T20:33:46.271Z"
+  }
+},
+{
+  "model": "product.additional",
+  "pk": 8,
+  "fields": {
+    "name": "Batata frita (G)",
+    "description": "Duis scelerisque enim nisi, vel dictum libero placerat quis. Maecenas pulvinar quis.",
+    "price": "9.99",
+    "size": 250,
+    "unit": "g",
+    "image": "media/items/fried-potato_vFL8Obt.jpg",
+    "created_at": "2025-04-14T21:52:12.723Z",
+    "updated_at": "2025-04-17T20:33:57.273Z"
+  }
+},
+{
+  "model": "product.additional",
+  "pk": 9,
+  "fields": {
+    "name": "Salada",
+    "description": "Etiam bibendum metus eget nibh cursus vestibulum. Fusce euismod ipsum id neque.",
+    "price": "0.99",
+    "size": 25,
+    "unit": "g",
+    "image": "media/items/lettuce_3kZ72UF.jpg",
+    "created_at": "2025-04-14T21:52:32.269Z",
+    "updated_at": "2025-04-14T21:52:32.269Z"
+  }
+},
+{
+  "model": "product.additional",
+  "pk": 10,
+  "fields": {
+    "name": "Água com gás",
+    "description": "Etiam aliquet aliquet nisi sit amet blandit. Vestibulum posuere et purus eu.",
+    "price": "3.49",
+    "size": 500,
+    "unit": "ml",
+    "image": "media/items/sparkling-water_EqqjgmE.jpg",
+    "created_at": "2025-04-14T21:53:01.539Z",
+    "updated_at": "2025-04-14T21:53:01.539Z"
+  }
+},
+{
+  "model": "product.additional",
+  "pk": 11,
+  "fields": {
+    "name": "Tomate",
+    "description": "Fusce sit amet ante pretium urna placerat facilisis eget vitae est. Pellentesque.",
+    "price": "0.99",
+    "size": 2,
+    "unit": "un",
+    "image": "media/items/tomato_wHWOXWm.jpg",
+    "created_at": "2025-04-14T21:53:25.626Z",
+    "updated_at": "2025-04-14T21:53:25.626Z"
+  }
+},
+{
+  "model": "product.additional",
+  "pk": 12,
+  "fields": {
+    "name": "Ketchup",
+    "description": "",
+    "price": "3.99",
+    "size": 50,
+    "unit": "ml",
+    "image": "media/items/ketchup.jpg",
+    "created_at": "2025-04-28T20:20:03.839Z",
+    "updated_at": "2025-04-28T20:20:03.839Z"
+  }
+},
+{
+  "model": "product.additional",
+  "pk": 13,
+  "fields": {
+    "name": "Mostarda",
+    "description": "",
+    "price": "3.99",
+    "size": 50,
+    "unit": "ml",
+    "image": "media/items/mustard.jpg",
+    "created_at": "2025-04-28T20:20:26.199Z",
+    "updated_at": "2025-04-28T20:20:26.199Z"
+  }
+},
+{
+  "model": "product.additional",
+  "pk": 14,
+  "fields": {
+    "name": "Pimenta",
+    "description": "",
+    "price": "15.99",
+    "size": 1,
+    "unit": "un",
+    "image": "media/items/pepper.jpg",
+    "created_at": "2025-04-28T20:20:42.258Z",
+    "updated_at": "2025-04-28T20:20:42.258Z"
+  }
+},
+{
+  "model": "product.product",
+  "pk": 1,
+  "fields": {
+    "name": "Trio Bye Bye Bird",
+    "description": "In hac habitasse platea dictumst. Proin malesuada ultrices finibus. Nunc luctus volutpat dictum. Pellentesque arcu felis, vestibulum nec neque in, maximus blandit libero. Vivamus.",
+    "price": "30.99",
+    "size": 1,
+    "unit": "un",
+    "image": "media/products/trio-1_NxUo81H.jpg",
+    "created_at": "2025-04-14T21:27:18.480Z",
+    "updated_at": "2025-04-22T20:27:54.754Z"
+  }
+},
+{
+  "model": "product.product",
+  "pk": 2,
+  "fields": {
+    "name": "Trio de Anchieita",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In euismod et dui.",
+    "price": "59.90",
+    "size": 1,
+    "unit": "un",
+    "image": "media/products/trio-2.jpg",
+    "created_at": "2025-05-03T17:12:08.932Z",
+    "updated_at": "2025-05-03T17:12:08.932Z"
+  }
+}
+]

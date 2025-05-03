@@ -24,8 +24,8 @@ class AdditionalCategoryViewSet(viewsets.ModelViewSet):
     A viewset for viewing and editing additional category instances.
     """
 
-    queryset = AdditionalCategory.objects.all()
+    queryset = AdditionalCategory.objects.all().order_by("order", "title")
     serializer_class = AdditionalCategorySerializer
 
     filter_backends = [DjangoFilterBackend]
-    filterset_fields = ["product"]
+    filterset_fields = ["products"]

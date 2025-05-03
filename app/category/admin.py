@@ -6,24 +6,24 @@ from app.category.models import AdditionalCategory, ProductCategory
 @admin.register(AdditionalCategory)
 class AdditionalCategoryAdmin(admin.ModelAdmin):
     # Add/Change
-    filter_horizontal = ("additionals",)
+    filter_horizontal = ("additionals", "products")
     radio_fields = {"type": admin.HORIZONTAL}
 
     # Change list view
     list_display = (
         "title",
-        "id",
+        "order",
         "type",
         "show",
         "required",
         "updated_at",
-        "created_at",
     )
     list_editable = (
+        "order",
         "show",
         "required",
     )
-    ordering = ("-title",)
+    ordering = ("order", "title")
 
 
 @admin.register(ProductCategory)
@@ -34,13 +34,3 @@ class ProductCategoryAdmin(admin.ModelAdmin):
     # Change list view
     list_display = ("title", "updated_at", "created_at")
     ordering = ("-title",)
-
-
-# Inlines
-class AdditionalCategoryInline(admin.StackedInline):
-    model = AdditionalCategory
-    extra = 1
-
-    # Form
-    filter_horizontal = ("additionals",)
-    radio_fields = {"type": admin.HORIZONTAL}
